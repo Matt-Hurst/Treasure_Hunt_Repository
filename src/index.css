@@ -1,13 +1,115 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #3f51b5;
+  font-size: 18px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inconsolata", monospace;
+}
+
+.screen {
+  height: 100vh;
+}
+
+header {
+  margin: auto 0;
+  color: #c5cae9;
+  background-color: #303f9f;
+  text-align: center;
+  height: 4rem;
+}
+
+.start-h1 {
+  margin-top: 2rem;
+  /* margin-bottom: 1rem; */
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  cursor: default;
+}
+
+h2 {
+  color: #edf5e1;
+  margin-bottom: 1rem;
+  cursor: default;
+}
+
+h3 {
+  color: #379683;
+  margin-bottom: 1rem;
+  cursor: default;
+}
+
+p {
+  padding: 2rem 1rem 1rem 1rem;
+  color: #bdbdbd;
+  font-size: 1.5rem;
+  cursor: default;
+}
+
+input {
+  border-radius: 7px;
+  text-align: center;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+  padding: 1rem 0.75rem;
+  margin: 2rem;
+}
+
+header h1 {
+  color: #c5cae9;
+  font-size: 2rem;
+  font-family: "Cinzel", serif;
+  font-family: "Slabo 27px", serif;
+  vertical-align: middle;
+  padding-top: 1rem;
+}
+
+.right {
+  text-align: right;
+}
+
+.container {
+  text-align: center;
+  height: 100vh;
+  align-items: center;
+  margin: 0 1rem;
+}
+
+button {
+  background-color: #8bc34a;
+  color: #ffffff;
+  padding: 1rem 2rem 1rem 2rem;
+  border-radius: 100px;
+  border-width: 0;
+  border: 1px solid #8bc34a;
+  display: block;
+  margin: 2rem auto 0 auto;
+  font-size: 1.5rem;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s;
+}
+button:hover {
+  border: 1px solid #466e18;
+}
+
+.progress {
+  padding-top: 1rem;
+}
+
+.progress h3 {
+  text-align: center;
+}
+
+@media only screen and (min-width: 850px) {
+  p {
+    margin: 2rem 2rem;
+  }
 }
